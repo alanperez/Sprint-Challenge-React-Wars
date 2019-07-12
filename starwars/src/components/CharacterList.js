@@ -6,9 +6,16 @@ const CharacterList = ({char}) => {
   return(
     
         <div className="newChar" >
-        {char.map((char,i) => <Character char={char} name={char.name} gender={char.gender} height={char.height} mass={char.mass} key={i}/>)}
+        {char.map((char,i) => <Character {...char} key={i}/>)}
         </div>
   )
 }
 
 export default CharacterList
+
+// props = {
+//     gender: "male",
+//     height: "6 foot",
+//     mass:"150lbs"
+  
+// }
