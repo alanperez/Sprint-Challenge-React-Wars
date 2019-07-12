@@ -1,0 +1,22 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Character /> should match snapshot 1`] = `
+<div
+  className="ui card"
+  style={
+    Object {
+      "margin": "20px auto",
+    }
+  }
+>
+  <div
+    className="image"
+  />
+  <div
+    className="content"
+  />
+  <div
+    className="description"
+  />
+</div>
+`;
